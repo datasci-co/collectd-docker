@@ -26,3 +26,5 @@ LoadPlugin write_graphite
    Prefix "{{ PREFIX | default("local.debug.") }}"
  </Node>
 </Plugin>
+
+Include "/etc/collectd/collectd.conf.d/*.conf"
